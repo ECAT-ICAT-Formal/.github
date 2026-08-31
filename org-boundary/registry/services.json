@@ -3,6 +3,18 @@
   "organization": "ECAT-ICAT-Formal",
   "services": [
     {
+      "service_id": "ecat-icat-formal.org-control",
+      "repository": "ECAT-ICAT-Formal/.github",
+      "boundary_role": "BOUNDARY_LOCAL_CONTROL",
+      "profile_status": "ACTIVE",
+      "accepts": [
+        "ecosystem.communication",
+        "ecosystem.monitor.request",
+        "ecosystem.work.request"
+      ],
+      "runtime_required_for_consumption": false
+    },
+    {
       "service_id": "ecat-icat-formal.boundary-diagnostic",
       "repository": "ECAT-ICAT-Formal/.github",
       "boundary_role": "BOUNDARY_LOCAL_DIAGNOSTIC",
