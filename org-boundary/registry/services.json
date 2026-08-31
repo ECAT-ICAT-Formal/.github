@@ -3,6 +3,13 @@
   "organization": "ECAT-ICAT-Formal",
   "services": [
     {
+      "service_id": "ecat-icat-formal.boundary-diagnostic",
+      "repository": "ECAT-ICAT-Formal/.github",
+      "boundary_role": "BOUNDARY_LOCAL_DIAGNOSTIC",
+      "profile_status": "ACTIVE",
+      "runtime_required_for_consumption": false
+    },
+    {
       "service_id": "ecat-icat-formal.publisher",
       "repository": "ECAT-ICAT-Formal/publisher",
       "boundary_role": "INTERNAL_ENDPOINT",
