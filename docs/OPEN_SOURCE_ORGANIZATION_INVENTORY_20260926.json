@@ -1,0 +1,82 @@
+{
+  "schema": "stegverse.organization-open-source-inventory/v1",
+  "organization": "ECAT-ICAT-Formal",
+  "snapshot_date": "2026-09-26",
+  "canonical_goal": "ECOSYSTEM-OPEN-SOURCE-STRATEGY-001",
+  "cosv": "20010010100000",
+  "scope": "Authenticated organization listing and exact LICENSE/LICENSE.md reads at default-branch root paths; not file-level/historical rights proof.",
+  "visibility": "INTERNAL_SOURCE_OWNER_EVIDENCE",
+  "counts": {
+    "repositories": 9,
+    "public": 0,
+    "private": 8,
+    "internal": 1,
+    "root_mit_text_observed": 0,
+    "checked_root_paths_missing": 9,
+    "copyright_title_verified": 0,
+    "release_authorizations": 0
+  },
+  "repositories": [
+    {
+      "repository": "ECAT-ICAT-Formal/publisher",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    },
+    {
+      "repository": "ECAT-ICAT-Formal/hybrid-bridge",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    },
+    {
+      "repository": "ECAT-ICAT-Formal/.github",
+      "visibility": "internal",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    },
+    {
+      "repository": "ECAT-ICAT-Formal/reference-library",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    },
+    {
+      "repository": "ECAT-ICAT-Formal/sandbox",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    },
+    {
+      "repository": "ECAT-ICAT-Formal/lean-verifier",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    },
+    {
+      "repository": "ECAT-ICAT-Formal/telemetry",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    },
+    {
+      "repository": "ECAT-ICAT-Formal/docs",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    },
+    {
+      "repository": "ECAT-ICAT-Formal/validator",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND",
+      "root_license_blob_sha": null
+    }
+  ],
+  "dispositions": [
+    "ROOT_ONLY_LICENSE_SCOPE_PARTIAL",
+    "CONTRIBUTOR_RIGHTS_UNVERIFIED",
+    "THIRD_PARTY_RIGHTS_UNVERIFIED",
+    "RELEASE_NOT_AUTHORIZED"
+  ],
+  "central_disclosure": "AGGREGATE_COUNTS_ONLY_NO_NONPUBLIC_REPOSITORY_NAMES"
+}
