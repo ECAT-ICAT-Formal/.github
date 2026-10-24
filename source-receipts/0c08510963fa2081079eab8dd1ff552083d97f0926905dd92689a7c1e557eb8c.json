@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->SV-LLM",
+    "destination_address": "sv-llm.intr-destination",
+    "destination_organization": "SV-LLM",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:089bb96039b17e4c95e9f9f3cac3c6ea59b1ad6f77599d923ea2b87a42af9a07",
+    "message": {
+      "body": {
+        "path_id": "ECAT-ICAT-Formal->SV-LLM:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+      },
+      "communication_id": "intr-path-v1:ECAT-ICAT-Formal->SV-LLM",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:96f2c4452b62377e49481dceaee0700df75e01bab94c97c28f4fe7f2c5bc3649",
+    "path_id": "ECAT-ICAT-Formal->SV-LLM:intr-destination",
+    "payload_sha256": "sha256:edeb10406cc7793315ceb27225ae22c21b3b3075cf1ec6bd04568ce45360e700",
+    "repository": "ECAT-ICAT-Formal/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "ECAT-ICAT-Formal",
+    "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:edeb10406cc7793315ceb27225ae22c21b3b3075cf1ec6bd04568ce45360e700",
+  "previous_receipt_sha256": "sha256:6e216e282aa50f5d079e7169aa936984e36e59af40aea7569007b61f813dfb0c",
+  "receipt_sha256": "sha256:0c08510963fa2081079eab8dd1ff552083d97f0926905dd92689a7c1e557eb8c",
+  "repository": "ECAT-ICAT-Formal/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:45daea43624bdfcce3eea68728c0b567f58a4c67af3ff6076264cb9aaa3fa43e",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:ECAT-ICAT-Formal->SV-LLM:intr-destination@intr-path-v1:ECAT-ICAT-Formal->SV-LLM"
+}
