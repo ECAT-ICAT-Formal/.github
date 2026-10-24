@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->Triad-Test",
+    "destination_organization": "Triad-Test",
+    "disposition": "ALLOW",
+    "operation": "INTR_MESH_PATH_TRANSFER",
+    "path_id": "ECAT-ICAT-Formal->Triad-Test:intr-destination",
+    "profile_id": "intr-mesh-path-transfer",
+    "repository": "ECAT-ICAT-Formal/.github",
+    "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "ECAT-ICAT-Formal",
+  "predecessor_org_state_sha256": "sha256:dcd6679ed98988e3f5a8dd129fca7eb6c37c7f076dcbdaaaaeb2b803040090f8",
+  "previous_receipt_sha256": "sha256:236610238bf2fcf6fbe0d5ea4dc26ff201e59359985c2206d63ab76e30ee82fd",
+  "receipt_sha256": "sha256:d89d16f4ad1096fe88ca3bb0d514c298e37fdee0f566ab1fa6ccf1c4148085c1",
+  "repo_receipt_sha256": "sha256:7803d73e67db661f778005a1c58adc24dd5d9576714df44e5fd185f4044738e2",
+  "repo_transition_id": "INTR_MESH_PATH_TRANSFER:ECAT-ICAT-Formal->Triad-Test:intr-destination@intr-path-v1:ECAT-ICAT-Formal->Triad-Test",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "ECAT-ICAT-Formal/.github",
+  "source_transition_id": "INTR_MESH_PATH_TRANSFER:ECAT-ICAT-Formal->Triad-Test:intr-destination@intr-path-v1:ECAT-ICAT-Formal->Triad-Test",
+  "source_transition_sha256": "sha256:7803d73e67db661f778005a1c58adc24dd5d9576714df44e5fd185f4044738e2",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:2fd72164791cf565c691a16930eded67c858b82466e7202cbaabc42ea107d9aa"
+}
