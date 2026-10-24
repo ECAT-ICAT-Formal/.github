@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->AaCT-E",
+    "destination_organization": "AaCT-E",
+    "disposition": "ALLOW",
+    "operation": "INTR_MESH_PATH_TRANSFER",
+    "path_id": "ECAT-ICAT-Formal->AaCT-E:intr-destination",
+    "profile_id": "intr-mesh-path-transfer",
+    "repository": "ECAT-ICAT-Formal/.github",
+    "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "ECAT-ICAT-Formal",
+  "predecessor_org_state_sha256": "sha256:86a355efe7526ab606260f705de46d078fa4127be6f403ba2944bed0945d02f8",
+  "previous_receipt_sha256": "sha256:089bb96039b17e4c95e9f9f3cac3c6ea59b1ad6f77599d923ea2b87a42af9a07",
+  "receipt_sha256": "sha256:13febacd83ef6893f93941f670ba95646ae92d6158c3d9286f9560cff9618063",
+  "repo_receipt_sha256": "sha256:44aa39813dd1942433831d39b9d6ae9f45a9d1663597a913c2d40a4b754a48ed",
+  "repo_transition_id": "INTR_MESH_PATH_TRANSFER:ECAT-ICAT-Formal->AaCT-E:intr-destination@intr-path-v1:ECAT-ICAT-Formal->AaCT-E",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "ECAT-ICAT-Formal/.github",
+  "source_transition_id": "INTR_MESH_PATH_TRANSFER:ECAT-ICAT-Formal->AaCT-E:intr-destination@intr-path-v1:ECAT-ICAT-Formal->AaCT-E",
+  "source_transition_sha256": "sha256:44aa39813dd1942433831d39b9d6ae9f45a9d1663597a913c2d40a4b754a48ed",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:51b297b2b35d1679a27f639d096e80f8ad8dbeaefa5a502ea2796c7794a1b355"
+}
