@@ -1,0 +1,42 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "admission_authority_constraint": "CONSTRAINT_VARIABLE",
+    "authority_effect": "NONE_DIAGNOSTIC_ACK_ONLY",
+    "communication_id": "ecat-icat-formal-hb-supplied-001",
+    "disposition": "ALLOW",
+    "disposition_role": "TRANSITION_EVIDENCE_ONLY",
+    "execution_authority_constraint": "CONSTRAINT_VARIABLE",
+    "operation": "DIAGNOSTIC_CROSSING",
+    "owner_repository": "ECAT-ICAT-Formal/.github",
+    "packet_id": "ecat-icat-formal-intr-destination-self-closure-hb-001",
+    "payload_schema": "stegverse.org-intr-destination-diagnostic/v1",
+    "payload_sha256": "sha256:0ec01c0e09f9cf5398861bfc9eb8cfdca8479c2182aef31c4227c8d5269b5982",
+    "profile_id": "intr-destination",
+    "profile_name": "InTr:Destination",
+    "purpose_specific_route": false,
+    "receiving_operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "routing_authority_constraint": "CONSTRAINT_VARIABLE",
+    "selects_processing": false,
+    "standing_rechecked_here": false,
+    "time_constraint": "CONSTRAINT_VARIABLE"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:0ec01c0e09f9cf5398861bfc9eb8cfdca8479c2182aef31c4227c8d5269b5982",
+  "previous_receipt_sha256": null,
+  "receipt_sha256": "sha256:39cdf6b518478e4ad7108633a16038fa05870eeabb3c930e1e077540aae0180b",
+  "repository": "ECAT-ICAT-Formal/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:3d436e5f9c13c260ecc78125f834daad5539e50e5ebaf5d0a2fb237dc8c16447",
+  "transition_class": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+  "transition_id": "ORGANIZATION_INTR_DESTINATION_INGRESS:ecat-icat-formal-intr-destination-self-closure-hb-001"
+}
