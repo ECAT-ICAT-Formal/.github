@@ -1,0 +1,34 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "ecat-icat-formal-hb-supplied-001",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "profile_id": "intr-destination"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "ECAT-ICAT-Formal",
+  "predecessor_org_state_sha256": "sha256:0ec01c0e09f9cf5398861bfc9eb8cfdca8479c2182aef31c4227c8d5269b5982",
+  "previous_receipt_sha256": null,
+  "receipt_sha256": "sha256:2b78270ccef291481cf52493bd520d59173d7c78c23c7f8b216e43dead156ce3",
+  "repo_receipt_sha256": "sha256:39cdf6b518478e4ad7108633a16038fa05870eeabb3c930e1e077540aae0180b",
+  "repo_transition_id": "ORGANIZATION_INTR_DESTINATION_INGRESS:ecat-icat-formal-intr-destination-self-closure-hb-001",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "ECAT-ICAT-Formal/.github",
+  "source_transition_id": "ORGANIZATION_INTR_DESTINATION_INGRESS:ecat-icat-formal-intr-destination-self-closure-hb-001",
+  "source_transition_sha256": "sha256:39cdf6b518478e4ad7108633a16038fa05870eeabb3c930e1e077540aae0180b",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:3d436e5f9c13c260ecc78125f834daad5539e50e5ebaf5d0a2fb237dc8c16447"
+}
