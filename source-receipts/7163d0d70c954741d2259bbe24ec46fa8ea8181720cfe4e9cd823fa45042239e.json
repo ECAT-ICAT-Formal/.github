@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->AdmittedCode",
+    "destination_address": "admittedcode.intr-destination",
+    "destination_organization": "AdmittedCode",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:089bb96039b17e4c95e9f9f3cac3c6ea59b1ad6f77599d923ea2b87a42af9a07",
+    "message": {
+      "body": {
+        "path_id": "ECAT-ICAT-Formal->AdmittedCode:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+      },
+      "communication_id": "intr-path-v1:ECAT-ICAT-Formal->AdmittedCode",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:60d30ad44698ec38bc45d9d86779f41ffbed1c6374697c2c0c09d7ede343077c",
+    "path_id": "ECAT-ICAT-Formal->AdmittedCode:intr-destination",
+    "payload_sha256": "sha256:102da754d0b3a7c3f03904bcd129df64f09bd5980d37ca1effa163e43d1de17d",
+    "repository": "ECAT-ICAT-Formal/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "ECAT-ICAT-Formal",
+    "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:102da754d0b3a7c3f03904bcd129df64f09bd5980d37ca1effa163e43d1de17d",
+  "previous_receipt_sha256": "sha256:1d9a72df5a85578fca6dbf61b72dc95e8a13fed33321f0526a0383197ba02652",
+  "receipt_sha256": "sha256:7163d0d70c954741d2259bbe24ec46fa8ea8181720cfe4e9cd823fa45042239e",
+  "repository": "ECAT-ICAT-Formal/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:975ce65bdd04223d801f5a46230dd844faaf286aef153dd234a1c36110c4f227",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:ECAT-ICAT-Formal->AdmittedCode:intr-destination@intr-path-v1:ECAT-ICAT-Formal->AdmittedCode"
+}
