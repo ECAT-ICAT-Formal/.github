@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:AaCT-E->ECAT-ICAT-Formal",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "AaCT-E->ECAT-ICAT-Formal:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:2942909d106989fca2e9741dcef6ab590784a54a6c68b59e1f12a06a5b991b66",
+    "source_repository": "AaCT-E/.github",
+    "source_repository_receipt_sha256": "sha256:1298d1e52c8310f1d56ca8ac1be7d81ec36182524ad1be1bd120d8acf62e88e1"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "ECAT-ICAT-Formal",
+  "predecessor_org_state_sha256": "sha256:ccd4a869fee9ab40cfa9bd0b3bd475fcbe2e7d6fd3783523d8f356ceb7c7751b",
+  "previous_receipt_sha256": "sha256:ca4f1d7e64d4b73e016a240436adbbe058794da31ddadd00c7cdfdd235d0bc89",
+  "receipt_sha256": "sha256:7dd9e80b2bdfdf26dc5c391b0a46f2e1a61ba11bf4a65fc405682086b3a690a2",
+  "repo_receipt_sha256": "sha256:470d81a7d1cb7445153652ff8bd6f072e974e182ee15022ac927a9eff28c539d",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:AaCT-E->ECAT-ICAT-Formal:intr-destination@intr-path-v1:AaCT-E->ECAT-ICAT-Formal",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "ECAT-ICAT-Formal/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:AaCT-E->ECAT-ICAT-Formal:intr-destination@intr-path-v1:AaCT-E->ECAT-ICAT-Formal",
+  "source_transition_sha256": "sha256:470d81a7d1cb7445153652ff8bd6f072e974e182ee15022ac927a9eff28c539d",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:b71464394ef75dad4594b9c878357809abe9149adb1ae4320b46b5001c438147"
+}
