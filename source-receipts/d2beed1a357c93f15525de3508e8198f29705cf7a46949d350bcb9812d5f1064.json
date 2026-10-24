@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->StegVerse-Labs",
+    "destination_address": "stegverse-labs.intr-destination",
+    "destination_organization": "StegVerse-Labs",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:089bb96039b17e4c95e9f9f3cac3c6ea59b1ad6f77599d923ea2b87a42af9a07",
+    "message": {
+      "body": {
+        "path_id": "ECAT-ICAT-Formal->StegVerse-Labs:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+      },
+      "communication_id": "intr-path-v1:ECAT-ICAT-Formal->StegVerse-Labs",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:cebccd08aa665c45988140dc4294cd41ce7f841f47f5cc3f2916c70a2bdc2d79",
+    "path_id": "ECAT-ICAT-Formal->StegVerse-Labs:intr-destination",
+    "payload_sha256": "sha256:7e9335a28a00171d7ac92477d0287f4874acedfbc7c08a7d01cc99df1ea46b08",
+    "repository": "ECAT-ICAT-Formal/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "ECAT-ICAT-Formal",
+    "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:7e9335a28a00171d7ac92477d0287f4874acedfbc7c08a7d01cc99df1ea46b08",
+  "previous_receipt_sha256": "sha256:c6868025863769fd03c81ce701e6f84d267f69a14a3e900d4c2f70c44f2c4702",
+  "receipt_sha256": "sha256:d2beed1a357c93f15525de3508e8198f29705cf7a46949d350bcb9812d5f1064",
+  "repository": "ECAT-ICAT-Formal/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:76ae3e75789aa7b40239355a38e6deccb6cd00b22609b482778502e0e54e2ca1",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:ECAT-ICAT-Formal->StegVerse-Labs:intr-destination@intr-path-v1:ECAT-ICAT-Formal->StegVerse-Labs"
+}
