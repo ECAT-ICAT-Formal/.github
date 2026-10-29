@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->formalism-tests",
+    "destination_address": "formalism-tests.intr-destination",
+    "destination_organization": "formalism-tests",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:4e3b5c108ca43cca5908395775de63d5fde1bcb94c1fd772b1e1bdc16f347cfd",
+    "message": {
+      "body": {
+        "path_id": "ECAT-ICAT-Formal->formalism-tests:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "f11bd9f1a972ce10338a49392476068614138d15"
+      },
+      "communication_id": "intr-path-v1:ECAT-ICAT-Formal->formalism-tests",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:6735ed0f42a486d0b0ca0c225207fd926a63f5c7123984468f7a569c00b93965",
+    "path_id": "ECAT-ICAT-Formal->formalism-tests:intr-destination",
+    "payload_sha256": "sha256:51507f76fb5a4f51771945ca75accaf1f743875b9863428d207efb863f5ce15a",
+    "repository": "ECAT-ICAT-Formal/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "ECAT-ICAT-Formal",
+    "transfer_commit": "f11bd9f1a972ce10338a49392476068614138d15"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:51507f76fb5a4f51771945ca75accaf1f743875b9863428d207efb863f5ce15a",
+  "previous_receipt_sha256": "sha256:f17f789f1a4eb0090b066c46a753ac2ad4a0dbcf2ec17b8b7a11e68c7cc8058c",
+  "receipt_sha256": "sha256:47a3bf075df673c9397d077e47c2919932a84c43a48e55c8956a7c4bb1c8db03",
+  "repository": "ECAT-ICAT-Formal/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:6f85a5aea5da2d327597d16d3351793e79722341d9910c5f213e87be0f20c239",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:ECAT-ICAT-Formal->formalism-tests:intr-destination@intr-path-v1:ECAT-ICAT-Formal->formalism-tests"
+}
