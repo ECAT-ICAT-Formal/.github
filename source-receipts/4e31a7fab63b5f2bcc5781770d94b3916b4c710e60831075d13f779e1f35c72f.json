@@ -1,0 +1,48 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "addressed_service": "ecat-icat-formal.intr-destination",
+    "communication_id": "intr-path-v1:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal",
+    "disposition": "ALLOW",
+    "message": {
+      "body": {
+        "path_id": "Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "fae470a29784af301f920463158b9197e9e75825"
+      },
+      "communication_id": "intr-path-v1:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:524e4720ebd656b6d0cc07e9f8f04e975aee52a7f3f15a3eab33b990745ac3bb",
+    "path_id": "Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal:intr-destination",
+    "payload_sha256": "sha256:60fb42f56664b3dfd2f62b58745e4bc2ad663244237f1f87d5df4448077906d5",
+    "repository": "ECAT-ICAT-Formal/.github",
+    "schema": "stegverse.intr-path-ingress-evidence/v1",
+    "source_inclusion": {
+      "source_ledger_tip": "8e1f3a4a88d66ff36f8f5a23c638f198d0fdf346",
+      "state": "VERIFIED_BY_ANONYMOUS_PUBLIC_LEDGER_READ",
+      "tvc_read_receipt": null
+    },
+    "source_organization_receipt_sha256": "sha256:88a6f2534e24b12e40559947158d3265d60b188cd95eb71f04cbba6855f5d269",
+    "source_repository": "Infrastructure-Continuity-Ventures/.github",
+    "source_repository_receipt_sha256": "sha256:80806b87655fd4ff312dae395d98bcf5d91347174ef595503c7a9b2dab567708"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:60fb42f56664b3dfd2f62b58745e4bc2ad663244237f1f87d5df4448077906d5",
+  "previous_receipt_sha256": "sha256:e94a180f6b313c63f737d1ebd1da78f8c1b11b2658720b2577e699da13060c09",
+  "receipt_sha256": "sha256:4e31a7fab63b5f2bcc5781770d94b3916b4c710e60831075d13f779e1f35c72f",
+  "repository": "ECAT-ICAT-Formal/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:ae1d9386ace7549360ca103b188442b6392ba6b7fbac3bbac70a36c86eb07313",
+  "transition_class": "INTR_MESH_PATH_INGRESS",
+  "transition_id": "INTR_MESH_PATH_INGRESS:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal:intr-destination@intr-path-v1:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal"
+}

@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:88a6f2534e24b12e40559947158d3265d60b188cd95eb71f04cbba6855f5d269",
+    "source_repository": "Infrastructure-Continuity-Ventures/.github",
+    "source_repository_receipt_sha256": "sha256:80806b87655fd4ff312dae395d98bcf5d91347174ef595503c7a9b2dab567708"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "ECAT-ICAT-Formal",
+  "predecessor_org_state_sha256": "sha256:60fb42f56664b3dfd2f62b58745e4bc2ad663244237f1f87d5df4448077906d5",
+  "previous_receipt_sha256": "sha256:1cde03dd7347e5760b4d133e83c775142bb4376f49ed90f9b5ae15f57a5be945",
+  "receipt_sha256": "sha256:dd8abad992000180f2ada6bf5106061f0ca818bf4fa6428e696192090cc9358d",
+  "repo_receipt_sha256": "sha256:4e31a7fab63b5f2bcc5781770d94b3916b4c710e60831075d13f779e1f35c72f",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal:intr-destination@intr-path-v1:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "ECAT-ICAT-Formal/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal:intr-destination@intr-path-v1:Infrastructure-Continuity-Ventures->ECAT-ICAT-Formal",
+  "source_transition_sha256": "sha256:4e31a7fab63b5f2bcc5781770d94b3916b4c710e60831075d13f779e1f35c72f",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:ae1d9386ace7549360ca103b188442b6392ba6b7fbac3bbac70a36c86eb07313"
+}
